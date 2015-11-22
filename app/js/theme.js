@@ -6,7 +6,7 @@ $('.page-scroll').bind('click', function(event) {
     var $anchor = $(this);
     $('html, body').stop().animate({
         scrollTop: $($anchor.attr('href')).offset().top -64
-    }, 1500, 'easeInOutExpo');
+    }, 1000, 'easeInOutExpo');
     event.preventDefault();
 });
 
@@ -71,7 +71,7 @@ $('body').scrollspy({
 // Wait for window load
 $(window).load(function() {
     // Animate loader off screen
-    $(".page-loader").fadeOut("slow");  
+    $(".page-loader").fadeOut("slow");
 });
 
 
