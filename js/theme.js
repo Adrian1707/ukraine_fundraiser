@@ -71,7 +71,7 @@ $('body').scrollspy({
 // Wait for window load
 $(window).load(function() {
     // Animate loader off screen
-    $(".page-loader").fadeOut("slow");
+    $(".page-loader").fadeOut("slow");  
 });
 
 
