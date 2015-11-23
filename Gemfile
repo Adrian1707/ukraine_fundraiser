@@ -4,6 +4,7 @@ ruby '2.1.5'
 
 gem 'sinatra'
 gem 'pony'
+gem 'stripe'
 
 #
 # group :test do
