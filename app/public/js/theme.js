@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
   $(".carousel").carousel({
-    interval: 2000
+    interval: 4000
   });
   $(".carousel").on("slid", function() {
     var to_slide;
