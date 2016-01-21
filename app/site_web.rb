@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'pony'
 require 'stripe'
+require "bundler/setup"
 
 set :publishable_key, ENV['PUBLISHABLE_KEY']
 set :secret_key, ENV['SECRET_KEY']
