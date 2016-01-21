@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+require "bundler/setup"
 ruby '2.1.5'
 
 gem 'sinatra'
