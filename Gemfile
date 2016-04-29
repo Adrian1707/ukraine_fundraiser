@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.1.5'
+ruby '2.1.6'
 
 gem 'sinatra'
-gem 'pony'
-gem 'stripe'
 
 #
 # group :test do
