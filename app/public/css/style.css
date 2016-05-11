@@ -20,6 +20,10 @@ body .body {
 	padding: 20px;
 }
 
+.row1 {
+	padding-left: 130px;
+}
+
 .team_pics{
 	height: 60%;
 	width:60%;
@@ -46,7 +50,7 @@ body .body {
 .images{
 	padding-bottom: 60px;
 	padding-top: 0px;
-  
+
 }
 * {
 	border-radius: 0 !important;
@@ -84,6 +88,7 @@ h5 {
 }
 p {
 	font: 14px/1.5em "Roboto";
+
 }
 .navbar-nav > li > a {
 	font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -133,6 +138,10 @@ section {
   	background-size: cover;
 }
 
+.page-scroll {
+	text-shadow: #CCC 1px 0 10px;
+}
+
 #header {
 	/* height: 98px; */
 }
@@ -154,18 +163,21 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	background-color: #fdf9f3;
 }
 .navbar .container {
-	padding-left: 50px;
-	padding-right: 50px;
+
 }
 
+#main-navbar{
+	background-color: #fdf9f3;
+}
 
 /* Navbar brand (logo) */
 .navbar-brand {
 	background-repeat: no-repeat;
 	background-position: left center;
-	width: 150px;
+	width: 550px;
 	height: auto;
 	padding: 24px 0;
 	text-indent: -99999px;
@@ -180,7 +192,8 @@ section {
 	transition: all 0.2s ease-in-out;
 }
 .navbar-default .navbar-brand {
-	background-image: url(../img/logo.png);
+	background-image: url(../img/logo.png);navbar-default
+	background-color: #fdf9f3;;
 }
 .navbar-shrink .navbar-brand {
 	background-image: url(../img/logo.png);
@@ -197,7 +210,7 @@ section {
 	padding: 24px 0;
 	margin-left: 25px;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 600;
 }
 
@@ -211,10 +224,15 @@ section {
 	left: auto !important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	background-color: transparent;
+	background-color: #fdf9f3;;
+}
+
+.navbar-default {
+	background-color: #fdf9f3;;
 }
 .navbar-default .dropdown-menu {
 	padding: 10px 0;
+	background-color: #fdf9f3;;
 }
 .dropdown-menu > li > a {
 	padding: 4px 20px;
@@ -237,6 +255,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	background-color: #fdf9f3;;
 }
 
 .navbar-shrink {
@@ -247,35 +266,41 @@ section {
 }
 .navbar-shrink .navbar-brand {
 	font-size: 20px;
+	background-color: #fdf9f3;;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .container {
+	background-color: #fdf9f3;;
 }
 .navbar-fixed-top.navbar-shrink .container {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
+	background-color: #fdf9f3;;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
 	padding-top: 24px;
 	padding-bottom: 24px;
+	background-color: #fdf9f3;;
 }
 
 /* Navbar transparent */
 .navbar-transparent {
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgb(255,255,255);
 }
 .navbar-fixed-top.navbar-transparent .container {
 	padding-top: 30px;
 	padding-bottom: 0;
+	background-color: rgb(255,255,255);
 }
 .navbar-fixed-bottom.navbar-transparent .container {
 	padding-top: 0;
 	padding-bottom: 30px;
+	background-color: rgb(255,255,255);
 }
 .navbar-transparent .navbar-nav > li > a {
-	color: #FFF;
+	background-color: rgb(255,255,255);
 }
 .navbar-transparent .navbar-brand, .navbar-transparent .navbar-brand:focus {
-	color: #FFF;
+	background-color: rgb(255,255,255);
 }
 /* ===== End navbar ===== */
 
@@ -283,7 +308,7 @@ section {
 /* ===== Begin intro ===== */
 /* Begin text carousel intro */
 #text-carousel-intro-section {
-	height: 100%;
+	height: 65%;
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)), url("doctors1.jpg");
 	background-size: cover;
 }
